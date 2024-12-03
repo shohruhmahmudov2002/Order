@@ -1,0 +1,19 @@
+{
+  "Time of Order": "03-12-2024, 12:55:19",
+  "Name": "Shohruh",
+  "ID": 1,
+  "Status": "pending",
+  "Order Information": [
+    {
+      "itemName": "Disk",
+      "quantity": 120,
+      "price": 20000
+    },
+    {
+      "itemName": "VideoGame",
+      "quantity": 100,
+      "price": 120000
+    }
+  ],
+  "Amount": 100
+}

@@ -9,5 +9,10 @@ public class OrderItem
     public string ItemName { get; set; }
     public int Quantity { get; set; }
     public decimal Price { get; set; }
+    public override string ToString()
+    {
+        return $"\tItem name: {ItemName}\n\tQuantity: {Quantity}" +
+                $"\n\tPrice: {Price}\n";
+    }
 }
 
